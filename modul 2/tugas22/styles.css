@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #add-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #new-item {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  #to-do-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #to-do-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #to-do-list li span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  #to-do-list button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
